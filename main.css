@@ -31,13 +31,14 @@ img {
 }
 header nav  {
     float: right;
-    width: 220px;
+    width: 220px;    
+    margin-left: 20px;
 }
 header nav ul  {
     list-style: none;
     display: flex;
     padding: 0;
-    margin-left: 20px;
+
     gap: 15px;
 }
 header nav ul li {
