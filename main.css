@@ -20,7 +20,7 @@ img {
     max-width: 100%;
 }
 .container {
-    width: 700px;
+    width: 500px;
     margin: 0 auto;
     padding: 15px 0;
     background: black;
@@ -29,8 +29,9 @@ img {
     align-items: center;  
 }
 header nav  {
+    display: flex;
     float: right;
-    width: 35%;
+    width: 250px;
 }
 header nav ul  {
     list-style: none;
@@ -61,6 +62,9 @@ header .logo {
     justify-content: space-between;
     align-items: center;  
     }   
+    .header nav {
+        display: flex;
+        justify-content: space-between;
     }
 .header nav ul {
     gap:50px;
@@ -76,26 +80,26 @@ header .logo {
     background: #e4dada;
     display: flex;
     align-items: center;
-    height: 500px;
+    height: 300px;
 }
 main .text {
     width: 60%;
-    margin-left: 50px;
-    margin-top: -50px;
+    margin-left: 25px;
+    margin-top: -25px;
 }
 main .text h1 {
-    font-size: 50px;
+    font-size: 20px;
 }
 main .text p {
-    font-size:30px;
+    font-size:10px;
 }
 main .btn {
     background: black;
-    font-size: 20px;
+    font-size: 10px;
     border: none;
     color: #fff;
-    padding: 20px 50px;
-    margin-top: 20px;
+    padding: 10px 25px;
+    margin-top: 10px;
     border-radius: 5px;
     transition: all 500ms ease;
 }
@@ -103,11 +107,36 @@ main .btn:hover {
     cursor: pointer;
     background: rgb(80, 0, 0);
 }
-main .img {
+main .img img {
     width: 40%;
     height: 100%;
     overflow: hidden;
 }
+
+@media (min-width: 769px) {
+    .main {
+    height: 500px;
+}
+    main .text {
+    width: 60%;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+    main .text h1 {
+    font-size: 50px;
+}
+    main .text p {
+    font-size:30px;
+}
+    main .btn {
+    font-size: 20px;
+    padding: 20px 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+}
+
+
 
 .service h2 {
     display: flex;
