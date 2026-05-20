@@ -29,7 +29,6 @@ img {
     align-items: center;  
 }
 header nav  {
-    display: flex;
     float: right;
     width: 250px;
 }
@@ -63,8 +62,7 @@ header .logo {
     align-items: center;  
     }   
     .header nav {
-        display: flex;
-        justify-content: space-between;
+        width: 35%;
     }
 .header nav ul {
     gap:50px;
@@ -89,6 +87,7 @@ main .text {
 }
 main .text h1 {
     font-size: 20px;
+    padding-block: 50px;
 }
 main .text p {
     font-size:10px;
