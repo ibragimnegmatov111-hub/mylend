@@ -40,10 +40,10 @@ header nav ul  {
 }
 header nav ul li {
     display: inline-block;
-    font-size: 10px;
 }
 header nav ul li a {
     color: #fff;
+    font-size: 10px;
 }
 header .logo {
     color: #fff;
