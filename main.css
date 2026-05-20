@@ -31,7 +31,7 @@ img {
 }
 header nav  {
     float: right;
-    width: 250px;
+    width: 220px;
 }
 header nav ul  {
     list-style: none;
@@ -41,6 +41,8 @@ header nav ul  {
 }
 header nav ul li {
     display: inline-block;
+    justify-content: space-between;
+    gap: 8px;
 }
 header nav ul li a {
     color: #fff;
