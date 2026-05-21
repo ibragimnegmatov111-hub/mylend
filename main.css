@@ -149,14 +149,15 @@ main .img img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 .icon h3, .icon p {
     text-align: center;
     align-items: center;
     justify-content: space-between;
     width: 50x;
-    padding: 0 35px;
+    padding: 10px 35px;
+    
 }
 .s1 i {
     padding: 5px;
