@@ -154,7 +154,9 @@ main .img img {
 .icon h3, .icon p {
     text-align: center;
     align-items: center;
-    width: 25%;
+    justify-content: space-between;
+    width: 50x;
+    padding: 0 35px;
 }
 .s1 i {
     padding: 5px;
