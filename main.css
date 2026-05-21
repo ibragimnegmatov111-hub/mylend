@@ -150,13 +150,14 @@ main .img img {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .icon h3, .icon p {
     text-align: center;
     align-items: center;
     justify-content: space-between;
     width: 50x;
+    font-size: 20px;
     padding: 10px 35px;
     
 }
