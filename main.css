@@ -149,6 +149,7 @@ main .img img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
     margin-left: 10px;
 }
 .icon h3, .icon p {
